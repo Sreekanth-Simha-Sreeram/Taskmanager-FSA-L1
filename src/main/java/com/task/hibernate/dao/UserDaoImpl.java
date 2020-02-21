@@ -10,7 +10,7 @@ import org.springframework.stereotype.Repository;
 import com.task.hibernate.models.Task;
 import com.task.hibernate.models.User;
 @Component
-@Repository("UserDao")
+//@Repository("userDao")
 public class UserDaoImpl implements UserDao {
 
 	

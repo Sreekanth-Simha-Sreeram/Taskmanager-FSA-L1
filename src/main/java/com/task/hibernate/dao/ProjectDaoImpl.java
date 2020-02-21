@@ -2,7 +2,18 @@ package com.task.hibernate.dao;
 
 import java.util.Date;
 
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Repository;
+
+@Component
+//@Repository ("projectDAO")
+
 public class ProjectDaoImpl implements ProjectDao {
+	
+	@Autowired
+	private SessionFactory sessionFactory;
 
 	public void createProject(int projectId) {
 		// TODO Auto-generated method stub

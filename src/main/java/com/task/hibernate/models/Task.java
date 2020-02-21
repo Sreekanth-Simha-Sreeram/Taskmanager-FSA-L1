@@ -31,9 +31,8 @@ public class Task
 	@Column(name="taskEndDate")
     Date taskEndDate;
     
-	@Id
+	
 	@Column(name="parentTaskId")
-	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	int parentTaskId;
 	
 public int getTaskId() {

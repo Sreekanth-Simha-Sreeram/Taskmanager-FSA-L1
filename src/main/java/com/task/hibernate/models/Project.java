@@ -25,7 +25,7 @@ public class Project {
 	Date projectStartDate;
 	@Column(name="projectEndDate")
 	Date projectEndDate;
-List<Task> Task;
+//List<Task> Task;
 public int getProjectId() {
 	return projectId;
 }
@@ -56,11 +56,11 @@ public Date getProjectEndDate() {
 public void setProjectEndDate(Date projectEndDate) {
 	this.projectEndDate = projectEndDate;
 }
-public List<Task> getTask() {
-	return Task;
-}
-public void setTask(List<Task> task) {
-	Task = task;
-}
+//public List<Task> getTask() {
+//	return Task;
+//}
+//public void setTask(List<Task> task) {
+//	Task = task;
+//}
 
 }
